@@ -24,7 +24,7 @@ def predict_img(img):
     return get_name(int(learn.predict(img)[0])),round(np.max(np.array(learn.predict(img)[2]))*100,2),get_details(int(learn.predict(img)[0]))
 
 html_temp = """
-    <div style="background-color:#f63366;padding:10px">
+    <div style="background-color:#f63366;padding:10px;margin-bottom: 25px">
     <h2 style="color:white;text-align:center;">Flower Prediction App</h2>
     <p style="color:white;text-align:center;" >This is a <b>Streamlit</b> app use for prediction of the <b>102 types of flower</b>.</p>
     </div>
