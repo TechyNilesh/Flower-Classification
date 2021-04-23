@@ -1,0 +1,5 @@
+streamlit==0.80.0
+numpy==1.19.5
+fastai==2.1.10
+pandas==1.2.4
+Pillow==8.2.0
