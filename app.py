@@ -3,6 +3,7 @@ import numpy as np
 import PIL.Image
 import pandas as pd
 import os
+import matplotlib.plt as plt
 from fastai.vision.all import Path,load_learner,Image
 
 path = Path('export.pkl')
